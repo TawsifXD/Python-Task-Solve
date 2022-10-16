@@ -1,0 +1,76 @@
+# n = 10 #int(input())
+# sum = 0
+# i = 1
+
+# while i <= n:
+#     sum = sum + i
+#     print(sum)
+#     i = i+1    # update counter
+
+# # print the sum
+# print("The sum is", sum)
+
+dic = {'name':'something'}
+
+dic = dict([
+    ('Colorado', 'Rockies'),
+    ('Boston', 'Red Sox'),
+    ('Minnesota', 'Twins'),
+    ('Milwaukee', 'Brewers'),
+    ('Seattle', 'Mariners')
+    ])
+
+team2 = dict(
+    Colorado='Rockies',
+    Boston='Red Sox',
+    Minnesota='Twins',
+    Milwaukee='Brewers',
+    Seattle='Mariners'
+)
+
+user_info = {'micky':['Abdur Rahman', 22, 'Tangail'], 'shadin':['Shadhin Hossoin', 21, 'Pabna'], 'tawsif':['Radeon Tawsif', 21, 'Rajshahi']}
+
+
+
+# # dic['b'] = 25
+# li = dic['b']      #[2]=36
+# li[2] = 36
+# print(li)
+
+# user_info['micky'][1] = 32
+
+# print(len(user_info))
+# print(user_info.keys())
+
+# print(user_info.pop('micky'))
+
+# user_info['micky'].remove(22)
+# del user_info
+# user_info.clear()
+# print(user_info.items())
+# -------------------------------------
+for key, value in user_info.items():
+    print(f'Enter Adderss for {key}: ')
+    address = input()
+    value[2] = address
+
+# change name instead address
+
+print(user_info)
+
+
+# ----------------------------------
+# enter a new record
+# enter key
+# name for key
+# AGE for key
+# LOC for key
+
+# all record
+
+
+# ---------------------------------
+# username -> age 
+
+
+# ---------------------------------
