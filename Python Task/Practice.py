@@ -1,4 +1,8 @@
-# input user full information
+  -------------------------------------------------------------------------- Day 1 -------------------------------------------------------------------------------  
+
+
+
+# Adding input from the user to the dictionary
 
 
  user_info = {" ame": " ", "Age" : "", "Location": " "}
@@ -12,8 +16,8 @@
      break
 
  print(user_info)
-
-# User input sum in list
+ 
+# Adding input from the user to the dictionary
 
  user = {}
 
@@ -24,9 +28,7 @@
 
  print(user)
 
-
-# Update information by user
-
+# Adding input from the user to the dictionary
 
 while True:
         user = {}
@@ -44,6 +46,9 @@ while True:
         if State == 'yes':
             break
 
+          
+  -------------------------------------------------------------------------- Day 2 -------------------------------------------------------------------------------    
+          
 
 # Find the sum of all numbers in a list
 
@@ -56,7 +61,7 @@ for i in range(0, len(my_list)):
     print("Your total sum is : ", sum_is)
    
    
-# Fine the even numbers in a list
+# Find the even numbers in a list
 
 my_list = [1, 2, 3, 4, 5, 6, 7, 100, 110, 21, 33, 32, 2, 4]
 
@@ -91,6 +96,15 @@ state = ['Alabama', 'Virginia', 'Maryland']
 
 for i in state:
     print("State name: ", i)
+  
+# loop through a list of mixed data type and extract only integer values
+
+my_list = [1, 2, 'apple', 3, 4, 'orange']
+
+for i in my_list:
+    if isinstance(i,int):
+        print("Output is :",i)
+
 
 # Print all the keys
 
