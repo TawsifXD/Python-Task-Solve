@@ -118,7 +118,67 @@ my_dict = {"apple": 2.50, "orange": 4.99, "banana": 0.59}
 
 print(my_dict)
 
+------------------------------------------------------------------------------------ Day 3 ----------------------------------------------------------------
 
+
+
+
+
+# 1 Write a Python function to find the Max of three numbers.
+def f_num(a,b,c):
+    num = a
+    if b>num:
+        num = b
+    if c>num:
+        num = c
+        return num
+
+print(f_num(10,20,30))
+
+
+
+#2 Write a Python function to sum all the numbers in a list.
+def num_sum(number):
+    empty = 0
+    for i in number:
+        empty += i
+    return empty
+print(num_sum((8, 2, 3, 0, 7)))
+
+
+#3 Write a Python function to multiply all the numbers in a list.
+
+def num_sum(number):
+    empty = 1
+    for i in number:
+        empty *= i
+    return empty
+print(num_sum((8, 2, 3, 9, 7)))
+
+#4 Write a Python function to calculate the factorial of a number (a non-negative integer). The function accepts the number as an argument.
+
+def number(n):
+    if n == 0:
+        return 1 
+    else:
+        return n* number(n-1)
+n = int(input("Enter your factorial Number to find wht ever you want: "))
+print(number(n))
+
+#5 Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters. 
+text = " Hi , this is Tawsif Rahman and you are Watching our YOutUbe Channel"
+
+def letter(text):
+    upper = 0
+    lower = 0
+    for i in text:
+        if i.isupper():
+            upper +=1
+        if i.islower():
+            lower +=1
+    return upper, lower
+print(letter(text))
+         
 
 
 
